@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- Information HTML-->
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +9,35 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+
+    <!-- Photo + Nom + Titre-->
     <section class="Header">
         <a href="./assets/images/LT.jpg"><img class="Header__picture" src="./assets/images/LT.jpg" alt="Loic Doe"></a>
-        <h1 class="Header__name">LOIC DOE</h1>
-        <h2 class="Header__title">Developpeur junior web</h2>
+            <h1 class="Header__name">LOIC DOE</h1>
+                <h2 class="Header__title">Developpeur junior web</h2>
     </section>
+    
+    <!-- Adresse / Mail / Téléphone-->
     <section class="Address">
         <address class="Address__info">
-            <div class="Address__info__address"><a href="https://maps.app.goo.gl/SneDXXoRwmJpe5t5A" class="Header__address__address--active">10 Rue de la république </br>75010 Paris</a></div>
+            <div class="Address__info__address"><a href="https://maps.app.goo.gl/SneDXXoRwmJpe5t5A" class="Header__address__address--active">10 Rue de la république <br> 75010 Paris</a></div>
             <div class="Address__info__email"><a href="mailto:ldoe@gmail.com" class="Header__address_email--active">ldoe@gmail.com</a></div>
             <div class="Address__info__phone"><a href="tel:0606060606" class="Header__address_phone--active">0606060606</a></div>
         </address>
     </section>
     
+    <!-- Bloc global information-->
   <section class="Information">
+
+    <!-- Bloc A propos / Langue / Loisirs-->
     <section class="Personnal">
       <h3 class="Personnal__information">A propos</h3>
-      <p class="Personnal__information__text">
+        <p class="Personnal__information__text">
           Ingénieur packaging et imprimerie, j'ai eu à la suite de mon diplôme l'opportunité de travailler au sein de multiples sociétés. Ces expériences m'ont permis de développer des compétences organisationnelles, humaines et une capacité à travailler en équipe.
           Mes expériences diverses au sein de la société celio*, spécialiste du prêt à porter accessible ou encore de la société diptyque, maison de parfumerie de luxe me permettent aujourd'hui 
           une capacité d'adaptation aux différents besoins des sociétés pour lesquelles je travaille. Passionné d'informatique et de programmation, j'ai décidé de réaliser sur mon temps personnel une formation 
           de développeur full stack de manière à pouvoir vivre de ma passion. Motivé, travailleur et impliqué, mon parcours atypique m'a permis de construire de solides bases pour appréhender les différents défis.
-      </p>
+        </p>
   
       <h3 class="Personnal__information">Langues parlées</h3>
           <div class="Personnal__information__language">- Français : Langue maternelle</div>
@@ -39,81 +48,84 @@
           <div class="Personnal__information__hobbies">- Aviation</div>
           <div class="Personnal__information__hobbies">- Plongée sous-marine </div>
           <div class="Personnal__information__hobbies">- Voyages</div>
-     </section>
+    </section>
 
-      <section class="Workexperience">
+    <!-- Bloc Expériences professionnels / Diplomes / Compétences-->
+    <section class="Workexperience">
         <h3 class="Workexperience__title">Expériences professionnelles</h3>
-        <section class="Workexperience__style__diptyque">
-          <h4 class="Workexperience__information">Responsable achat merchandising / architecture - diptyque</h4>
-          <div class="Workexperience__information__text">- Pilotage et suivi des différents projets architecture,
-          Merchandising et Vitrine à l’international (45 pays)</div>
-          <div class="Workexperience__information__text">- Coordination et production des projets événementiels du groupe (Pop-Up store)</div>
-          <div class="Workexperience__information__text">- Expert technique auprès des équipes pour la production des éléments print, mobilier, vitrine et merchandising</div>
-          <div class="Workexperience__information__text">- Définition et suivi des rétroplannings et des budgets</div>
-          <div class="Workexperience__information__text">- Gestion de la logistique internationale</div>
-          <div class="Workexperience__information__text">- Élaboration et mise en place de la politique achat responsable</div>
-        </section>
-        <section class="Workexperience__style__Konica">
-          <h4 class="Workexperience__information">Industrial printing europe engineer - Konica Minolta</h4>
-          <div class="Workexperience__information__text">- Expert technique sur différentes machines (finition / impression)</div>
-          <div class="Workexperience__information__text">- Formation des techniciens européens et montée en compétences des équipes Europe</div>
-          <div class="Workexperience__information__text">- Accompagnement technique des différents pays</div>
-          <div class="Workexperience__information__text">- Formation et accompagnement des clients à l’utilisation </div>
-        </section>
-        <section class="Workexperience__style__celio">
-          <h4 class="Workexperience__information">Responsable fabrication et animation  - celio*</h4>
-          <div class="Workexperience__information__text">- Réalisation des éléments vitrines / in-stores / sacherie / packaging</div>
-          <div class="Workexperience__information__text">- Pilotage du déploiement des supports de communication sur l’ensemble des magasins en France et à l’international (1.200 PdV) </div>
-          <div class="Workexperience__information__text">- Détermination des mises en avant produit et des besoins photographiques</div>
-          <div class="Workexperience__information__text">- Garant de la charte graphique</div>
-          <div class="Workexperience__information__text">- Management d’une équipe de fabrication et animation de 5 personnes</div>
-          <div class="Workexperience__information__text">- Définition et pilotage du budget fabrication / animation</div>
-          <div class="Workexperience__information__text">- Management des fournisseurs et des RFAs</div>
-        </section>
-          <section class="Workexperience__style__Highco">
-          <h4 class="Workexperience__information">Chef de fabrication   - Highco Editing</h4>
-          <div class="Workexperience__information__text">- Collecte du besoin client et gestion des appels d'offres</div>
-          <div class="Workexperience__information__text">- Analyse de la faisabilité technique</div>
-          <div class="Workexperience__information__text">- Force de proposition auprès des clients</div>
-          <div class="Workexperience__information__text">- Suivi de fabrication sur l’ensemble du flux de production</div>
-          <div class="Workexperience__information__text">- Signataire des Bons-à-tirer</div>
-          <div class="Workexperience__information__text">- Contrôle de la conformité et de la qualité des produits</div>
-          <div class="Workexperience__information__text">- Référencement des fournisseurs</div>
+            <section class="Workexperience__style__diptyque">
+                <h4 class="Workexperience__information">Responsable achat merchandising / architecture - diptyque</h4>
+                    <div class="Workexperience__information__text">- Pilotage et suivi des différents projets architecture,
+                    Merchandising et Vitrine à l'international (45 pays)</div>
+                    <div class="Workexperience__information__text">- Coordination et production des projets événementiels du groupe (Pop-Up store)</div>
+                    <div class="Workexperience__information__text">- Expert technique auprès des équipes pour la production des éléments print, mobilier, vitrine et merchandising</div>
+                    <div class="Workexperience__information__text">- Définition et suivi des rétroplannings et des budgets</div>
+                    <div class="Workexperience__information__text">- Gestion de la logistique internationale</div>
+                    <div class="Workexperience__information__text">- Élaboration et mise en place de la politique achat responsable</div>
+            </section>
+
+            <section class="Workexperience__style__Konica">
+                <h4 class="Workexperience__information">Industrial printing europe engineer - Konica Minolta</h4>
+                    <div class="Workexperience__information__text">- Expert technique sur différentes machines (finition / impression)</div>
+                    <div class="Workexperience__information__text">- Formation des techniciens européens et montée en compétences des équipes Europe</div>
+                    <div class="Workexperience__information__text">- Accompagnement technique des différents pays</div>
+                    <div class="Workexperience__information__text">- Fromation et accompagnement des clients à l'utilisation</div>
+            </section>
+
+            <section class="Workexperience__style__celio">
+                <h4 class="Workexperience__information">Responsable fabrication et animation  - celio*</h4>
+                    <div class="Workexperience__information__text">- Réalisation des éléments vitrines / in-stores / sacherie / packaging</div>
+                    <div class="Workexperience__information__text">- Pilotage du déploiement des supports de communication sur l'ensemble des magasins en France et à l’international (1.200 PdV) </div>
+                    <div class="Workexperience__information__text">- Détermination des mises en avant produit et des besoins photographiques</div>
+                    <div class="Workexperience__information__text">- Garant de la charte graphique</div>
+                    <div class="Workexperience__information__text">- Management d'une équipe de fabrication et animation de 5 personnes</div>
+                    <div class="Workexperience__information__text">- Définition et pilotage du budget fabrication / animation</div>
+                    <div class="Workexperience__information__text">- Management des fournisseurs et des RFAs</div>
+            </section>
+            
+            <section class="Workexperience__style__Highco">
+                <h4 class="Workexperience__information">Chef de fabrication   - Highco Editing</h4>
+                    <div class="Workexperience__information__text">- Collecte du besoin client et gestion des appels d'offres</div>
+                    <div class="Workexperience__information__text">- Analyse de la faisabilité technique</div>
+                    <div class="Workexperience__information__text">- Force de proposition auprès des clients</div>
+                    <div class="Workexperience__information__text">- Suivi de fabrication sur l'ensemble du flux de production</div>
+                    <div class="Workexperience__information__text">- Signataire des Bons-à-tirer</div>
+                    <div class="Workexperience__information__text">- Contrôle de la conformité et de la qualité des produits</div>
+                    <div class="Workexperience__information__text">- Référencement des fournisseurs</div>
+            </section>
+
+        <h3 class="Workexperience__title">Diplômes/Formations</h3>
+
+        <section class="Workexperience__information__Ingenieur">
+            <h4 class="Workexperience__information">Diplôme d'ingénieur</h4>
+                <div class="Workexperience__information__text">2009 - 2012</div>
+                <div class="Workexperience__information__text">GRENOBLE INP PAGORA</div>
+                <div class="Workexperience__information__text">École internationale du papier, de la communication imprimée et des biomatériaux</div>
         </section>
 
-          <h3 class="Workexperience__title">Diplômes/Formations</h3>
-
-          <section class="Workexperience__information__Ingenieur">
-          <h4 class="Workexperience__information">Diplôme d’ingénieur</h4>
-            <div class="Workexperience__information__text">2009 - 2012</div>
-            <div class="Workexperience__information__text">GRENOBLE INP PAGORA</div>
-            <div class="Workexperience__information__text">École internationale du papier, de la communication imprimée et des biomatériaux</div>
-          </section>
-
-          <section class="Workexperience__information__Bac">
+        <section class="Workexperience__information__Bac">
           <h4 class="Workexperience__information">Baccalauréat - Mention très bien</h4>
             <div class="Workexperience__information__text">2006</div>
             <div class="Workexperience__information__text">Lycée Europèen de Villers-Cotterêts</div>
-          </section>
+        </section>
 
           <h3 class="Workexperience__title">Compétences</h3>
-          <section class="Workexperience__information__Competences">
-            <div class="Workexperience__information__text">- HTML 5 : Débutant</div>
-            <div class="Workexperience__information__text">- CSS 3 : Débutant</div>
-            <div class="Workexperience__information__text">- GITHUB : Débutant</div>
-            <div class="Workexperience__information__text">- PACK OFFICE : Confirmé</div>
-            <div class="Workexperience__information__text">- PACK ADOBE : Confirmé</div>
-          </section>
-
-      </section>
+            <section class="Workexperience__information__Competences">
+                <div class="Workexperience__information__text">- HTML 5 : Débutant</div>
+                <div class="Workexperience__information__text">- CSS 3 : Débutant</div>
+                <div class="Workexperience__information__text">- GITHUB : Débutant</div>
+                <div class="Workexperience__information__text">- PACK OFFICE : Confirmé</div>
+                <div class="Workexperience__information__text">- PACK ADOBE : Confirmé</div>
+            </section>
     </section>
-
-      <section class="Footer">
-        <img class="Footer__Social" src="./assets/images/linkedin.png">
-        <img class="Footer__Social" src="./assets/images/twitter.png">
-        <img class="Footer__Social" src="./assets/images/github.png">
-        
-      </section>
-
+    
+    <!-- Logo Réseaux Sociaux-->
+</section>
+    <section class="Footer">
+        <img class="Footer__Social" src="./assets/images/linkedin.png" alt="Linkedin Loic Doe">
+        <img class="Footer__Social" src="./assets/images/twitter.png" alt="Twitter Loic Doe">
+        <img class="Footer__Social" src="./assets/images/github.png" alt="GitHub Lois Doe">  
+    </section>
+ 
 </body>
 </html>
