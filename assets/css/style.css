@@ -61,7 +61,9 @@
     box-shadow: 0 0 30px #c47877 ;
   }
 
-
+  .Header__picture:hover{
+    cursor: zoom-in;
+  }
 
  
 
@@ -206,6 +208,29 @@
     padding-left: 20px;
 }
 
+.Workexperience__style__diptyque:hover{
+    border-right:solid 4px #782221
+}
+    
+.Workexperience__style__celio:hover{
+    border-right:solid 4px #782221
+}
+    
+.Workexperience__style__Konica:hover{
+        border-right:solid 4px #782221
+}
+    
+.Workexperience__style__Highco:hover{
+    border-right:solid 4px #782221
+}
+    
+    .Workexperience__information__Ingenieur:hover{
+      border-right:solid 4px #782221
+    }
+    
+    .Workexperience__information__Bac:hover{
+      border-right:solid 4px #782221
+    }
 
 .Workexperience__information__Bac{
   padding-bottom: 30px;
@@ -219,6 +244,10 @@
   padding-bottom: 20px;
   padding-top: 20px;
 }
+
+.Workexperience__information__Competences:hover{
+    border-right:solid 4px #782221
+  }
 
 .Footer{
     background-color: #782221;
